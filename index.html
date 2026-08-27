@@ -1,43 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bora Baser</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-      background: #111;
-      color: #eee;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
-      text-align: center;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-      letter-spacing: 0.02em;
-    }
-    p {
-      font-size: 1.1rem;
-      color: #aaa;
-    }
-    a {
-      color: #4da3ff;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bora Baser — Senior Web Developer</title>
+<meta name="description" content="Bora Baser, senior web developer. 15+ years building front-end experiences with HTML5, CSS3, JavaScript, WordPress and Sitecore.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div>
-    <h1>Bora Baser</h1>
-    <p>Site under construction. Get in touch: <a href="mailto:bbaser@gmail.com">bbaser@gmail.com</a></p>
+
+<canvas id="field" aria-hidden="true"></canvas>
+
+<main>
+  <p class="kicker"><span class="punct">// </span>senior web developer <span class="punct">·</span> design <span class="punct">·</span> photography<span class="punct"> · los angeles</span></p>
+  <h1><span id="typed-text"></span><span id="typed-cursor" aria-hidden="true"></span></h1>
+  <p class="role">const focus = <span class="str">"front-end craft, pixel by pixel"</span>;</p>
+  <p class="lede"><strong>Design comps become pixel-perfect, responsive builds</strong> — HTML5, CSS3, JavaScript, wired into WordPress and Sitecore, or shaped into reusable UI components. Accessible and fast by default. Tested until every browser agrees. Off the clock, I'm behind a camera or sketching layouts, same eye, different canvas.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="mailto:bbaser@gmail.com">say hello →</a>
+    <a class="btn" href="mailto:bbaser@gmail.com">bbaser@gmail.com</a>
   </div>
+  <p class="soon">// portfolio.json — loading soon</p>
+</main>
+
+<footer>&copy; <span id="year"></span> Bora Baser · built by hand</footer>
+
+<script src="js/script.js" defer></script>
+
 </body>
 </html>
