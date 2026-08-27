@@ -51,13 +51,6 @@ document.getElementById('year').textContent = new Date().getFullYear();
   function step(){
     ctx.clearRect(0, 0, w, h);
 
-    // subtle vertical gradient wash
-    const g = ctx.createLinearGradient(0, 0, 0, h);
-    g.addColorStop(0, 'rgba(11,18,28,1)');
-    g.addColorStop(1, 'rgba(9,14,22,1)');
-    ctx.fillStyle = g;
-    ctx.fillRect(0, 0, w, h);
-
     const linkDist = 130;
     const mouseLinkDist = 190;
 
